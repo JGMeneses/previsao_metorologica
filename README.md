@@ -21,5 +21,19 @@ Certifique-se de ter o Flutter instalado em sua máquina.
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
+## Para conseguir acessar a API você tem que criar uma conta e criar uma chave no link:
+https://console.hgbrasil.com/documentation/weather
+
+Depois disso terá que ir no main.dart e adicionar onde tem 'SUACHAVE' a chave fornecida pelo site.
+
+Future<Map<String, dynamic>> getDadosPorCidade(String cidade) async {
+    print("get dados por cidade");
+    try {
+      final resposta = await http.get(
+        Uri.parse(
+          'https://api.hgbrasil.com/weather?key=SUACHAVE_name=$cidade',
+        ),
+      );
+
 
 
