@@ -46,7 +46,7 @@ class _HomeMaterialState extends State<HomeMaterial> {
     try {
       final resposta = await http.get(
         Uri.parse(
-          'https://api.hgbrasil.com/weather?key=9d972e7c&city_name=$cidade',
+          'https://api.hgbrasil.com/weather?key=coloque sua chave_name=$cidade',
         ),
       );
 
