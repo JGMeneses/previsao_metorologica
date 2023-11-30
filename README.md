@@ -1,16 +1,25 @@
-# codition_tempo
+# App de Previsão Meteorológica
 
-A new Flutter project.
+Um aplicativo Flutter simples para verificar a previsão meteorológica, usando a API [HGBrasil Weather](https://console.hgbrasil.com/documentation/weather).
 
-## Getting Started
+## Capturas de Tela
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://github.com/JGMeneses/previsao_metorologica/blob/main/lib/img/condicaotempo.jpg" alt="Imagem de Capa" width="300">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Consulta de previsão meteorológica com base na localização
+- Exibição da condição atual e previsão semanal
+
+## Como Executar
+
+Certifique-se de ter o Flutter instalado em sua máquina.
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+
+
