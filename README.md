@@ -1,6 +1,6 @@
 # App de Previsão Meteorológica
 
-Um aplicativo Flutter simples para verificar a previsão meteorológica, usando a API [HGBrasil Weather](https://console.hgbrasil.com/documentation/weather).
+Um aplicativo Flutter para verificar a previsão meteorológica, usando a API [HGBrasil Weather](https://console.hgbrasil.com/documentation/weather).
 
 ## Capturas de Tela
 
